@@ -1,0 +1,25 @@
+{
+  "name": "sample-angularjs-login",
+  "version": "0.1.0",
+  "dependencies": {
+    "angular": "^1.4.0",
+    "bootstrap-sass-official": "^3.2.0",
+    "angular-animate": "^1.4.x",
+    "angular-route": "^1.4.x",
+    "angular-cookies": "^1.4.x"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.0"
+  },
+  "appPath": "app",
+  "moduleName": "Home",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
