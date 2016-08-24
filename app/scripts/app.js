@@ -5,10 +5,10 @@ angular.module('Home', [
   'ngCookies'
 ])
   .constant('BACKEND', {
-    PATH: 'http://localhost:9080/grimoire/rest/',
-    API: 'http://localhost:9080/grimoire/rest/api/',
-    LOGIN: 'http://localhost:9080/grimoire/rest/api/users/',
-    OPTIONS: 'http://localhost:9080/grimoire/rest/api/users'
+    PATH: 'http://localhost/backend/rest/',
+    API: 'http://localhost/backend/rest/api/',
+    LOGIN: 'http://localhost/backend/rest/api/users/',
+    OPTIONS: 'http://localhost/backend/rest/api/users'
   })
   .constant('PATHS', {
     LOGIN: '/login',
